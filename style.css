@@ -1,0 +1,16 @@
+@media all and (max-device-width: 480px) {
+	body {
+		font-family: Arial;
+		background-color: linear-gradient(0deg, white, gray, black);
+	}
+	
+	header {
+		text-align: justify;
+		font-size: 17px;
+	}
+
+	h1 {
+		font-size: 25px;
+		font-weight: bold;
+	}
+}
