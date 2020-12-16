@@ -20,6 +20,7 @@ header {
 	color: white;
 	text-decoration: none;
 	text-align: center;
+	font-size: 30px;
 }
 
 h1 {
@@ -93,6 +94,16 @@ footer {
 
 .logo-bottom-middle {
 	padding-left: 16%;
+}
+
+.logo-top-middle {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#logo-top {
+	width: 9%;
+	height: 13%;
 }
 
 #modules-viewer {
