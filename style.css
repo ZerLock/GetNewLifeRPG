@@ -1,16 +1,117 @@
-@media all and (max-device-width: 480px) {
-	body {
-		font-family: Arial;
-		background-color: linear-gradient(0deg, white, gray, black);
-	}
-	
-	header {
-		text-align: justify;
-		font-size: 17px;
-	}
+body {
+	font-family: Arial;
+	background: linear-gradient(0deg, white 50%, rgb(211, 246, 255) 65%, rgb(93, 204, 255));
+	color: black;
+}
 
-	h1 {
-		font-size: 25px;
-		font-weight: bold;
-	}
+header {
+	/*width: 100%;*/
+	padding-top: 0.25%;
+	margin-top: -0.5%;
+	margin-left: -0.4%;
+	margin-right: -0.4%;
+	text-align: center;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+}
+
+.a-header {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+h1 {
+	font-size: 175px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -20%;
+	color: black;
+}
+
+#map {
+	text-align: center;
+	margin-top: 2.5%;
+}
+
+#map-img {
+	width: 42%;
+	height: 42%;
+}
+
+#presentation {
+	margin-top: 15%;
+}
+
+article {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.in-article {
+	font-size: 25px;
+	margin-left: 3%;
+	text-align: justify;
+	margin-right: 5%;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: justify;
+	margin-bottom: -0.5%;
+	padding-bottom: 0.5%;
+	margin-left: -0.4%;
+	margin-right: -0.4%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.about {
+	width: 25%;
+	padding-right: 7%;
+}
+
+.contact {
+	padding-left: 50%;
+	width: 50%;
+}
+
+#contact-bottom {
+	padding-left: 0%;
+}
+
+#logo-bottom {
+	width: 50%;
+	height: 70%;
+}
+
+.logo-bottom-middle {
+	padding-left: 16%;
+}
+
+#modules-viewer {
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2%;
+}
+
+#shop-items {
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h3 {
+	text-align: center;
+}
+
+#bottom-table {
+	padding-top: 50%;
 }
