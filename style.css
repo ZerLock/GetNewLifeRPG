@@ -129,6 +129,10 @@
 		padding-top: 50%;
 	}
 
+	.image-link:hover{
+		box-shadow: 3px 3px 3px rgb(76, 101, 105);
+	}
+
 }
 
 @media all and (max-width: 640px) {
@@ -262,6 +266,10 @@
 
 	#bottom-table {
 		padding-top: 50%;
+	}
+
+	.image-link:hover{
+		box-shadow: 3px 3px 3px rgb(76, 101, 105);
 	}
 
 }
@@ -534,6 +542,10 @@
 		padding-top: 50%;
 	}
 
+	.image-link:hover{
+		box-shadow: 3px 3px 3px rgb(76, 101, 105);
+	}
+
 }
 
 @media all and (min-width: 1236px) and (max-width: 1369px) {
@@ -668,6 +680,10 @@
 
 	#bottom-table {
 		padding-top: 50%;
+	}
+
+	.image-link:hover{
+		box-shadow: 3px 3px 3px rgb(76, 101, 105);
 	}
 
 }
